@@ -1,0 +1,56 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.green-enter {
+    -fx-background-color: 
+        #58585a,
+        
+        linear-gradient(#b6ea42, #83af23);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+
+    -fx-font-size: 12px;
+}
+
+
+.yellow-clear {
+    -fx-background-color: 
+         #58585a,
+        
+        linear-gradient(#ffc32c, #e5ad23);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+   
+    -fx-font-size: 12px;
+}
+
+.red-cancel {
+    -fx-background-color: 
+         #58585a,
+        
+        linear-gradient(#f43e21, #d83919);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+
+    -fx-font-size: 12px;
+}
+
+.pinbutton {
+    -fx-background-color: 
+         #58585a,
+         linear-gradient(#ebebeb, #e2e2e2);
+    
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+  
+    -fx-font-size: 12px;
+}

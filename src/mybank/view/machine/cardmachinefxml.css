@@ -1,0 +1,20 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+
+#outer{
+    -fx-arc-height: 12; -fx-arc-width: 12; -fx-stroke: #cccccc; -fx-fill: #cccccc;
+}
+
+#inner{
+    -fx-arc-height: 12; -fx-arc-width: 12; -fx-stroke: #838687; -fx-fill: #838687;
+}
+
+#drag{
+   -fx-arc-height: 12; -fx-arc-width: 12; -fx-stroke: #8ec2d6; -fx-fill: #8ec2d6;
+}

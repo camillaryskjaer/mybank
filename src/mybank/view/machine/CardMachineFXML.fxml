@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@cardmachinefxml.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mybank.view.machine.CardMachineFXMLController">
+   <children>
+      <Rectangle id="outer" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="17.0" layoutX="7.0" layoutY="6.0" stroke="BLACK" strokeType="INSIDE" width="217.0" />
+      <Rectangle id="inner" fx:id="slip" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="8.0" layoutX="16.0" layoutY="11.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+   </children>
+   <padding>
+      <Insets right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>
